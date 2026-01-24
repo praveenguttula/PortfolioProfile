@@ -65,7 +65,7 @@ $(document).ready(function () {
 });
 
 /* ===================== TAWK.TO LIVE CHAT ===================== */
-if (!window.Tawk_API) {
+if (window.Tawk_API) {
     var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
     (function () {
         var s1 = document.createElement("script"),
